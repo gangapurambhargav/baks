@@ -1,5 +1,5 @@
 # baks
-A virtaul Assistant
+A Virtual live Speech printer
 
 
 Breakdown:
