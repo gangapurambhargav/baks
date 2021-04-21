@@ -1,0 +1,3 @@
+Speech Recognition
+go to powersheell and type:
+pip install SpeechRecognition
