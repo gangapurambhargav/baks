@@ -12,6 +12,6 @@ Speech Synthesis
 
 
 # Requirements
- pyaudio 
-SpeechRecognition==3.8.1
-pocketsphinx==0.1.15
+#pyaudio
+#SpeechRecognition==3.8.1
+#pocketsphinx==0.1.15
