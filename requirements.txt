@@ -1,3 +1,6 @@
 Speech Recognition
-go to powersheell and type:
-pip install SpeechRecognition
+
+
+pyaudio 
+SpeechRecognition==3.8.1
+pocketsphinx==0.1.15
