@@ -4,9 +4,9 @@ import speech_recognition as sr
 r =sr.Recognizer()
 with sr.Microphone() as source:
     #
+    while True:
     audio=r.listen(source)
-text = r.recognize_google(audio)
-
-if str(text).lower()== "What time is":
-    print(datetime.datetime.now().strftime('%b-%d-%I%M%p-%G'))
+google = r.recognize_google(audio)
+sphinx=r.recognize_sphinx(audio)
+print('Google: [{}]\nSphinx: {}\n\n'.format(google, sphinx))
 
